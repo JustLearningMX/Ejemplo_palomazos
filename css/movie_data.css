@@ -1,0 +1,30 @@
+.main_container_movie {
+    height: 650px;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.container_poster {
+    width: 350px;
+    height: 500px;
+    border: 1px solid lightgrey;
+    box-shadow: 0 0 5px lightgray;
+}
+
+.movie_title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    background-color: lightgray;
+    opacity: 0.6;
+}
+
+.movie_description {
+    font-size: 1.5rem;
+    line-height: 38px;
+    width: 600px;
+    font-weight: bold;
+    background-color: lightgray;
+    opacity: 0.6;
+}
